@@ -3,34 +3,47 @@
     <head>
         <meta charset="utf-8">
         <title>Organize table assignment</title>
+        <script src="https://kit.fontawesome.com/8bc5acd82.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.ggogleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link href="./assets/style.css" rel="stylesheet">
     </head>
     <body>
-        <header class="header">
-            <video control loop src="./assets/gym-video.mp4">
-                <div class="flex heading container">
-                    <h5>TRAINING<strong>STUDIO</strong></h5>
-                    <nav class="flex">
-                        <ul class="flex">
-                            <li>HOME</li>
-                            <li>ABOUT</li>
-                            <li>CLASSES</li>
-                            <li>SCHEDULES</li>
-                            <li>CONTACT</li>
-                        </ul>
-                        <a href="#">SIGN UP</a>
-                    </nav>
-                </div>
-            </video>
+        <header class="navbar">
+            <div class="container flex justify-between item-center">
+                <a class="brand" href="#">
+                    <h1>Training <strong class="text-primary">Studio</strong></h1>
+                </a>
+                <nav>
+                    <ul class="flex item-center nav-menu">
+                        <li class="nav-menu-item">
+                            <a class="active" href="#">Home</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#">Classes</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#">Schedule</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a class="btn" href="#">Signup</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main>
-            <section class="container">
-                <div>
-                    <div class="choose-section">
-                        <h3>CHOOSE <strong>PROGRAM</strong></h3>
-                        <img src="./assets/line-dec.png" alt="lines" height="100" width="100">
-                        <p>Training Studio is free CSS template for gyms and fitness centers. You are allowed to use this layout for your business website.</p>
-                    </div>
+            <section class="hero font-0">
+                <video class="bg-video" autoplay muted src="./assets/gym-video.mp4"></video>
+                <div class="overlay center column">
+                    <h3 class="hero-subheading">Work Harder, Get Stronger</h3>
+                    <h2 class="hero-heading">Easy with our <strong class="text-primary">gym</strong></h2>
+                    <a class="btn" href="#">Become a member</a>
                 </div>
             </section>
         </main>
